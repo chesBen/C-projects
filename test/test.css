@@ -1,0 +1,206 @@
+/* ------------------------------------------------------------ *\
+  Base
+\* ------------------------------------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ------------------------------------------------------------ *\
+  Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ------------------------------------------------------------ *\
+  Logo
+\* ------------------------------------------------------------ */
+
+.logo {
+  display: block;
+  max-width: 510px;
+  margin: 0 auto 20px;
+}
+
+/* ------------------------------------------------------------ *\
+  Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0 -40px;
+}
+
+.nav li {
+  padding: 0 40px;
+}
+
+.nav li.current a {
+  background-color: #508bbc;
+  color: #fff;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.06;
+  color: #8a8c8f;
+  text-transform: uppercase;
+  transition: background-color .3s, color .3s;
+  padding: 10px 30px;
+}
+
+.nav a:hover {
+  background-color: #508bbc;
+  color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+  Intro
+\* ------------------------------------------------------------ */
+
+.intro .intro__image {
+  margin-bottom: 20px;
+}
+
+.intro .intro__content {
+  background-color: #cacbcd;
+  color: #fff;
+  padding: 10px 60px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+/* ------------------------------------------------------------ *\
+  Articles
+\* ------------------------------------------------------------ */
+
+.articles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 -30px;
+}
+
+/* ------------------------------------------------------------ *\
+  Article
+\* ------------------------------------------------------------ */
+
+.article {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 30px;
+}
+
+.article .article__title {
+  color: #508bbc;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.article .article__title a {
+  text-decoration: none;
+}
+
+.article .article__image {
+  margin-bottom: 10px;
+}
+
+.article .article__image img {
+  width: 100%;
+}
+
+.article .article__description {
+  font-size: 13px;
+  color: #8a8c8f;
+  line-height: 1.38;
+  text-align: justify;
+}
+
+/* ------------------------------------------------------------ *\
+  Nav Footer
+\* ------------------------------------------------------------ */
+
+.nav-footer ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-footer li+li {
+  border-left: 1px solid #508bbc;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.nav-footer a {
+  font-size: 12px;
+  font-size: #508bbc;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------ *\
+  Footer Nav
+\* ------------------------------------------------------------ */
+
+.footer .footer__nav {
+  border-top: 1px solid #8a8c8f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------ *\
+  Socials
+\* ------------------------------------------------------------ */
+
+.list-socials {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.list-socials li+li {
+  margin-left: 5px;
+}
+
+.list-socials a {
+  display: block;
+  transition: opacity .3s;
+}
+
+.list-socials a:hover {
+  opacity: 0.7;
+}
+
+/* ------------------------------------------------------------ *\
+  Copyright
+\* ------------------------------------------------------------ */
+
+.footer__copyright {
+  font-size: 12px;
+  color: #8a8c8f;
+}
